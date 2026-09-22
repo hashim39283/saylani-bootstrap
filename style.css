@@ -1,0 +1,6 @@
+.container{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 100px 250px 400px;
+    grid-template-columns: repeat(auto-fit , minmax(3,250px));
+}
